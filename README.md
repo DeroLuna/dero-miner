@@ -40,3 +40,6 @@ Developer fee: 10%
     --debug-getwork
         Shows getwork (the JSON message)
 ```
+
+## Known issues
+* May crash when starting with the "Assertion failed" exception. In this case, just run the program again.
