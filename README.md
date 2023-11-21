@@ -1,7 +1,9 @@
 # AstroBWTv3 Dero Miner by DeroLuna
 
 A new optimized AstroBWTv3 Dero Miner.
+
 Сurrently available only on Linux.
+
 Use it for testing purposes only. There are no guarantees that it will work stably.
 
 Developer fee: 10%
