@@ -1,6 +1,6 @@
 # AstroBWTv3 Dero Miner by DeroLuna
 
-A new optimized AstroBWTv3 Dero Miner.
+A new optimized AstroBWTv3 Dero CPU Miner.
 
 Сurrently available only on Linux.
 
