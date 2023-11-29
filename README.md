@@ -4,9 +4,16 @@ A new optimized AstroBWTv3 Dero CPU Miner.
 
 Сurrently available only on Linux.
 
-Use it for testing purposes only. There are no guarantees that it will work stably.
+If you have problems with the miner, message me in Discord.
 
 Developer fee: 10%
+
+## Quick installation ##
+
+```
+curl -Lo deroluna-miner-linux-amd64.tar.gz https://github.com/DeroLuna/dero-miner/releases/latest/download/deroluna-miner-linux-amd64.tar.gz
+tar -xf deroluna-miner-linux-amd64.tar.gz
+```
 
 ## Usage ##
 
