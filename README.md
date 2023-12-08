@@ -36,6 +36,10 @@ tar -xf deroluna-miner-linux-amd64.tar.gz
         Number of threads
     --no-lock
         Disables CPU core binding
+    --period <number>
+        The period in seconds for which the average hashrate is calculated
+        Must be between 1 and 64
+        The default value is 10
     --never-stop
         Simulate mining when connection is lost
     --old-console
