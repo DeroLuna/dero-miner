@@ -1,6 +1,7 @@
 # AstroBWTv3 Dero Miner by DeroLuna
 
-A new optimized AstroBWTv3 Dero CPU Miner.
+A new optimized AstroBWTv3 Dero CPU Miner.\
+As testing shows, it works 4-4.5 times faster for AMD Ryzen processors and 3-4 times faster for Intel processors than the official miner.
 
 Сurrently available only on Linux and Windows.
 
