@@ -9,17 +9,19 @@ If you have problems with the miner, message me in Discord.
 
 Developer fee: 10%
 
-## Quick installation ##
-### Linux ###
-```
-curl -Lo deroluna-miner-linux-amd64.tar.gz https://github.com/DeroLuna/dero-miner/releases/latest/download/deroluna-miner-linux-amd64.tar.gz
-tar -xf deroluna-miner-linux-amd64.tar.gz
-```
-
 ## Usage ##
 
 ```
-./deroluna-miner -d <daemon-address:port> -w <wallet_address> [-t <threads>]
+deroluna-miner -d <daemon-address:port> -w <wallet_address> [-t <threads>]
+```
+
+#### Example (Linux)
+```
+./deroluna-miner -d minernode1.dero.io:10100 -w dero1qykyta6ntpd27nl0yq4xtzaf4ls6p5e9pqu0k2x4x3pqq5xavjsdxqgny8270
+```
+#### Example (Windows)
+```
+deroluna-miner.exe -d minernode1.dero.io:10100 -w dero1qykyta6ntpd27nl0yq4xtzaf4ls6p5e9pqu0k2x4x3pqq5xavjsdxqgny8270
 ```
 
 ### Options ###
@@ -51,6 +53,13 @@ tar -xf deroluna-miner-linux-amd64.tar.gz
         Shows found shares (the JSON message and the hash)
     --debug-getwork
         Shows getwork (the JSON message)
+```
+
+## Quick installation ##
+#### Linux ####
+```
+curl -Lo deroluna-miner-linux-amd64.tar.gz https://github.com/DeroLuna/dero-miner/releases/latest/download/deroluna-miner-linux-amd64.tar.gz
+tar -xf deroluna-miner-linux-amd64.tar.gz
 ```
 
 ## Known issues
