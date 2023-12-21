@@ -3,7 +3,7 @@
 A new optimized AstroBWTv3 Dero CPU Miner.\
 As testing shows, it works 4-5 times faster for AMD Ryzen processors and 2-4 times faster for Intel processors than the official miner.
 
-Сurrently available only on Linux and Windows.
+Available for Linux, Windows and HiveOS.
 
 If you have problems with the miner, message me in Discord.
 
