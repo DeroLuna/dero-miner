@@ -68,13 +68,10 @@ Average hashrate reported by miners.\
 May vary depending on your system and CPU frequency.
 
 ```
-AMD Ryzen 5 3500X    8.6 kh/s
 AMD Ryzen 5 3600    13.6 kh/s
-AMD Ryzen 7 3700X   16.5 kh/s
 AMD Ryzen 7 5700G   19.6 kh/s
 AMD Ryzen 9 3900X   28.2 kh/s
 AMD Ryzen 9 3900    28.9 kh/s
-AMD Ryzen 9 5900X   30.1 kh/s
 AMD Ryzen 9 5950X   41.8 kh/s
 AMD Ryzen 9 7950X   48.7 kh/s
 ```
