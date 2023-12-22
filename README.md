@@ -62,7 +62,7 @@ curl -Lo deroluna-miner-linux-amd64.tar.gz https://github.com/DeroLuna/dero-mine
 tar -xf deroluna-miner-linux-amd64.tar.gz
 ```
 
-## Benchmarks ##
+## Benchmarks (preliminarily) ##
 
 Average hashrate reported by miners.\
 May vary depending on your system and CPU frequency.
