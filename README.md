@@ -64,22 +64,43 @@ tar -xf deroluna-miner-linux-amd64.tar.gz
 
 ## Benchmarks (preliminarily) ##
 
-Average hashrate reported by miners.\
-May vary depending on your system and CPU frequency.
+The maximum observed hashrate
 
 ```
-AMD Ryzen 5 3400G    7.5 kh/s
-AMD Ryzen 5 1600    11.6 kh/s
-AMD Ryzen 5 3600    13.8 kh/s
-AMD Ryzen 7 3700X   15.4 kh/s
-AMD Ryzen 7 5700X   16.6 kh/s
-AMD Ryzen 7 5700G   19.8 kh/s
-AMD Ryzen 9 3900X   27.5 kh/s
-AMD Ryzen 9 3900    28.5 kh/s
-AMD Ryzen 9 5900X   31.0 kh/s
-AMD Ryzen 9 5950X   40.4 kh/s
-AMD Ryzen 9 7900X   41.8 kh/s
-AMD Ryzen 9 7950X   48.3 kh/s
+AMD Ryzen 3 2200G      5.6 kh/s
+AMD Ryzen 5 1600      11.8 kh/s
+AMD Ryzen 5 2600      12.9 kh/s
+AMD Ryzen 5 3400G      8.2 kh/s
+AMD Ryzen 5 3500X      8.6 kh/s
+AMD Ryzen 5 3600      15.6 kh/s
+AMD Ryzen 5 4600G     15.3 kh/s
+AMD Ryzen 5 5500      16.3 kh/s
+AMD Ryzen 5 5600      16.3 kh/s
+AMD Ryzen 5 5600G     15.5 kh/s
+AMD Ryzen 5 5600X     13.9 kh/s
+AMD Ryzen 5 7600      20.0 kh/s
+AMD Ryzen 7 1700      14.6 kh/s
+AMD Ryzen 7 1800X     10.4 kh/s
+AMD Ryzen 7 2700      15.6 kh/s
+AMD Ryzen 7 3700X     18.3 kh/s
+AMD Ryzen 7 3800X     20.0 kh/s
+AMD Ryzen 7 4700U      8.0 kh/s
+AMD Ryzen 7 4800U     11.3 kh/s
+AMD Ryzen 7 5700G     21.1 kh/s
+AMD Ryzen 7 5700U     12.0 kh/s
+AMD Ryzen 7 5700X     22.5 kh/s
+AMD Ryzen 7 5800X     23.4 kh/s
+AMD Ryzen 7 6800H     12.8 kh/s
+AMD Ryzen 9 3900      30.2 kh/s
+AMD Ryzen 9 3900X     30.0 kh/s
+AMD Ryzen 9 3900XT    28.4 kh/s
+AMD Ryzen 9 3950X     37.3 kh/s
+AMD Ryzen 9 5900X     34.4 kh/s
+AMD Ryzen 9 5950X     43.8 kh/s
+AMD Ryzen 9 7900      37.5 kh/s
+AMD Ryzen 9 7900X     43.8 kh/s
+AMD Ryzen 9 7950X     51.9 kh/s
+AMD Ryzen 9 7950X3D   48.3 kh/s
 ```
 
 ## Known issues
