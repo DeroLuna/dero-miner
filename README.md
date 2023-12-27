@@ -141,7 +141,13 @@ Intel Core i3-10100      4.3 kh/s
 Intel Core i3-10100F     4.2 kh/s
 Intel Core i3-10105      3.4 kh/s
 
-Intel Core i5-1135G7     6.1 kh/s
+Intel Core i5-2300       1.7 kh/s
+Intel Core i5-2400       1.9 kh/s
+Intel Core i5-2410M      1.0 kh/s
+Intel Core i5-2500K      2.1 kh/s
+Intel Core i5-2520M      1.1 kh/s
+Intel Core i5-3470T      1.4 kh/s
+Intel Core i5-3570       2.4 kh/s
 Intel Core i5-4460       2.6 kh/s
 Intel Core i5-4570       2.8 kh/s
 Intel Core i5-4590T      2.2 kh/s
@@ -159,12 +165,17 @@ Intel Core i5-9400F      5.3 kh/s
 Intel Core i5-10210U     2.5 kh/s
 Intel Core i5-10300H     4.1 kh/s
 Intel Core i5-10400      6.2 kh/s
+Intel Core i5-1135G7     6.1 kh/s
 Intel Core i5-11400     12.9 kh/s
 Intel Core i5-11400F    12.6 kh/s
 Intel Core i5-11400H     9.7 kh/s
 Intel Core i5-12400F    13.7 kh/s
 Intel Core i5-13400     18.5 kh/s
 
+Intel Core i7-2600       2.8 kh/s
+Intel Core i7-2670QM     1.9 kh/s
+Intel Core i7-3770       3.1 kh/s
+Intel Core i7-3770K      3.1 kh/s
 Intel Core i7-4770K      3.7 kh/s
 Intel Core i7-4790       3.7 kh/s
 Intel Core i7-5820K      5.0 kh/s
@@ -183,6 +194,15 @@ Intel Core i7-13700F    12.1 kh/s
 Intel Core i9-9900K      9.3 kh/s
 Intel Core i9-11900KF   15.8 kh/s
 Intel Core i9-14900KF   45.3 kh/s
+
+Intel Xeon E5-2670 v3   15.6 kh/s
+Intel Xeon E5-2680 v3   19.4 kh/s
+Intel Xeon E5-2695 v3   19.0 kh/s
+Intel Xeon E5-2698 v3   22.1 kh/s
+
+Intel Xeon E5-2650 v4   15.2 kh/s
+Intel Xeon E5-2680 v4   20.9 kh/s
+Intel Xeon E5-2686 v4   24.5 kh/s
 ```
 </details>
 
