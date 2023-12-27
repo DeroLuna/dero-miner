@@ -131,58 +131,58 @@ AMD EPYC 7B12                   204 kh/s
   <summary>Intel</summary>
 
 ```
-Intel Core i3-1115G4             3.9 kh/s
-Intel Core i3-7100               2.0 kh/s
-Intel Core i3-8100               3.2 kh/s
-Intel Core i3-8100T              2.6 kh/s
-Intel Core i3-9100               3.5 kh/s
-Intel Core i3-9100F              3.6 kh/s
-Intel Core i3-10100              4.3 kh/s
-Intel Core i3-10100F             4.2 kh/s
-Intel Core i3-10105              3.4 kh/s
+Intel Core i3-1115G4    3.9 kh/s
+Intel Core i3-7100      2.0 kh/s
+Intel Core i3-8100      3.2 kh/s
+Intel Core i3-8100T     2.6 kh/s
+Intel Core i3-9100      3.5 kh/s
+Intel Core i3-9100F     3.6 kh/s
+Intel Core i3-10100     4.3 kh/s
+Intel Core i3-10100F    4.2 kh/s
+Intel Core i3-10105     3.4 kh/s
 
-Intel Core i5-1135G7             6.1 kh/s
-Intel Core i5-4460               2.6 kh/s
-Intel Core i5-4570               2.8 kh/s
-Intel Core i5-4590T              2.2 kh/s
-Intel Core i5-4670               2.7 kh/s
-Intel Core i5-4670K              2.4 kh/s
-Intel Core i5-6500               2.7 kh/s
-Intel Core i5-6600               3.1 kh/s
-Intel Core i5-7400               2.9 kh/s
-Intel Core i5-7600K              3.7 kh/s
-Intel Core i5-8500               5.2 kh/s
-Intel Core i5-8500T              4.0 kh/s
-Intel Core i5-8600               4.2 kh/s
-Intel Core i5-8600K              4.9 kh/s
-Intel Core i5-9400F              5.3 kh/s
-Intel Core i5-10210U             2.5 kh/s
-Intel Core i5-10300H             4.1 kh/s
-Intel Core i5-10400              6.2 kh/s
-Intel Core i5-11400             12.9 kh/s
-Intel Core i5-11400F            12.6 kh/s
-Intel Core i5-11400H             9.7 kh/s
-Intel Core i5-12400F            13.7 kh/s
-Intel Core i5-13400             18.5 kh/s
+Intel Core i5-1135G7    6.1 kh/s
+Intel Core i5-4460      2.6 kh/s
+Intel Core i5-4570      2.8 kh/s
+Intel Core i5-4590T     2.2 kh/s
+Intel Core i5-4670      2.7 kh/s
+Intel Core i5-4670K     2.4 kh/s
+Intel Core i5-6500      2.7 kh/s
+Intel Core i5-6600      3.1 kh/s
+Intel Core i5-7400      2.9 kh/s
+Intel Core i5-7600K     3.7 kh/s
+Intel Core i5-8500      5.2 kh/s
+Intel Core i5-8500T     4.0 kh/s
+Intel Core i5-8600      4.2 kh/s
+Intel Core i5-8600K     4.9 kh/s
+Intel Core i5-9400F     5.3 kh/s
+Intel Core i5-10210U    2.5 kh/s
+Intel Core i5-10300H    4.1 kh/s
+Intel Core i5-10400     6.2 kh/s
+Intel Core i5-11400     2.9 kh/s
+Intel Core i5-11400F    2.6 kh/s
+Intel Core i5-11400H    9.7 kh/s
+Intel Core i5-12400F    3.7 kh/s
+Intel Core i5-13400     8.5 kh/s
 
-Intel Core i7-4770K              3.7 kh/s
-Intel Core i7-4790               3.7 kh/s
-Intel Core i7-5820K              5.0 kh/s
-Intel Core i7-6700               3.8 kh/s
-Intel Core i7-6700K              3.7 kh/s
-Intel Core i7-7700               4.1 kh/s
-Intel Core i7-8700K              6.8 kh/s
-Intel Core i7-9700               6.3 kh/s
-Intel Core i7-10700              9.5 kh/s
-Intel Core i7-10700F             7.6 kh/s
-Intel Core i7-11700             10.9 kh/s
-Intel Core i7-11800H            10.1 kh/s
-Intel Core i7-12700             11.6 kh/s
-Intel Core i7-13700F            12.1 kh/s
+Intel Core i7-4770K     3.7 kh/s
+Intel Core i7-4790      3.7 kh/s
+Intel Core i7-5820K     5.0 kh/s
+Intel Core i7-6700      3.8 kh/s
+Intel Core i7-6700K     3.7 kh/s
+Intel Core i7-7700      4.1 kh/s
+Intel Core i7-8700K     6.8 kh/s
+Intel Core i7-9700      6.3 kh/s
+Intel Core i7-10700     9.5 kh/s
+Intel Core i7-10700F    7.6 kh/s
+Intel Core i7-11700     0.9 kh/s
+Intel Core i7-11800H    0.1 kh/s
+Intel Core i7-12700     1.6 kh/s
+Intel Core i7-13700F    2.1 kh/s
 
-Intel Core i9-9900K              9.3 kh/s
-Intel Core i9-11900KF           15.8 kh/s
-Intel Core i9-14900KF           45.3 kh/s
+Intel Core i9-9900K     9.3 kh/s
+Intel Core i9-11900KF   5.8 kh/s
+Intel Core i9-14900KF   5.3 kh/s
 ```
 </details>
 
