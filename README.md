@@ -45,14 +45,21 @@ deroluna-miner.exe -d minernode1.dero.io:10100 -w dero1qykyta6ntpd27nl0yq4xtzaf4
         The default value is 10
     --never-stop
         Simulate mining when connection is lost
+
     --old-console
         Changes the way information is output to the console
     --no-colors
         Removes colors from the console
+
     --debug-shares
         Shows found shares (the JSON message and the hash)
     --debug-getwork
         Shows getwork (the JSON message)
+
+    --algo1 0
+        Disables optimisations from Beta 1.11.1
+    --algo2 0
+        Disables optimisations from Beta 1.11.2a
 ```
 
 ## Quick installation ##
