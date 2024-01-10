@@ -143,13 +143,6 @@ AMD Ryzen 9 7950X3D   52.7 kh/s
 
 AMD Ryzen Threadripper 3970X    73.4 kh/s
 AMD Ryzen Threadripper 3990X   145.2 kh/s
-
-AMD EPYC 7532   130.2 kh/s
-AMD EPYC 7551    90.8 kh/s
-AMD EPYC 7601    92.9 kh/s
-AMD EPYC 7642   169.8 kh/s
-AMD EPYC 7B12   220.3 kh/s
-AMD EPYC 7H12   202.0 kh/s
 ```
 </details>
 
@@ -239,26 +232,6 @@ Intel Core i9-10980XE   19.7 kh/s
 Intel Core i9-11900H    11.5 kh/s
 Intel Core i9-11900KF   15.8 kh/s
 Intel Core i9-14900KF   45.3 kh/s
-
-Intel Xeon E5-2430       6.1 kh/s
-Intel Xeon E5-2660       8.8 kh/s
-Intel Xeon E5-2690      10.5 kh/s
-
-Intel Xeon E5-2650 v2   10.0 kh/s
-Intel Xeon E5-2660 v2   10.5 kh/s
-
-Intel Xeon E5-2630 v3   10.8 kh/s
-Intel Xeon E5-2666 v3   14.2 kh/s
-Intel Xeon E5-2670 v3   15.6 kh/s
-Intel Xeon E5-2680 v3   19.4 kh/s
-Intel Xeon E5-2695 v3   21.4 kh/s
-Intel Xeon E5-2698 v3   22.1 kh/s
-Intel Xeon E5-2699 v3   25.6 kh/s
-
-Intel Xeon E5-2650 v4   15.2 kh/s
-Intel Xeon E5-2680 v4   20.9 kh/s
-Intel Xeon E5-2683 v4   20.2 kh/s
-Intel Xeon E5-2686 v4   24.6 kh/s
 
 Intel Xeon Platinum 8124M    32.3 kh/s
 Intel Xeon Platinum 8259CL   39.4 kh/s
