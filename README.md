@@ -241,3 +241,4 @@ Intel Xeon Platinum 8369B    84.5 kh/s
 
 ## Known issues
 * May crash on Linux when resolving the daemon address with the "Assertion failed" exception. In this case, just run the program again.
+* If you have a dual CPU and you are using Windows, then most likely only one of the CPUs will be used. To use the second CPU, run another instance of the miner.
