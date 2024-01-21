@@ -5,7 +5,8 @@ As testing shows, it works 4-5 times faster for AMD Ryzen processors and 2-4 tim
 
 Available for Linux, Windows and HiveOS.
 
-If you have problems with the miner, message me in Discord.
+If you have problems with the miner, message me in Discord.\
+Discord server: https://discord.gg/vuJW8UahRV
 
 Developer fee: 10%
 
@@ -69,9 +70,9 @@ curl -Lo deroluna-miner-linux-amd64.tar.gz https://github.com/DeroLuna/dero-mine
 tar -xf deroluna-miner-linux-amd64.tar.gz
 ```
 
-## Benchmarks (preliminarily) ##
+## Hashrate stats ##
 
-The maximum observed hashrate
+#### The maximum average observed hashrate
 
 <details>
   <summary>AMD</summary>
