@@ -233,10 +233,6 @@ Intel Core i9-10980XE   19.7 kh/s
 Intel Core i9-11900H    11.5 kh/s
 Intel Core i9-11900KF   15.8 kh/s
 Intel Core i9-14900KF   45.3 kh/s
-
-Intel Xeon Platinum 8124M    32.3 kh/s
-Intel Xeon Platinum 8259CL   39.4 kh/s
-Intel Xeon Platinum 8369B    84.5 kh/s
 ```
 </details>
 
