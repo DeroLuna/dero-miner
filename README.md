@@ -39,26 +39,34 @@ deroluna-miner.exe -d minernode1.dero.io:10100 -w dero1qykyta6ntpd27nl0yq4xtzaf4
     --threads -t
         Number of threads
     --no-lock
-        Disables CPU core binding. Disabled on Windows by default
-    --period <number>
-        The period in seconds for which the average hashrate is calculated
+        Disables CPU core binding
+    --period <time in seconds>
+        The period for which the average hashrate is calculated (10 by default)
         Must be between 1 and 64
-        The default value is 10
+    --log-console-line <time in seconds>
+        Enables logging of the console line with the specified period
+    --show-pool-shares
+        Shows the total count of shares sent to the pool
     --never-stop
         Simulate mining when connection is lost
 
+    --exit-on-zero-hashrate
+        Stops the miner if the hashrate has been zero for 15 seconds
+        You should run the command in a loop for the miner to restart (except for HiveOS)
+          See the examples in start.sh and start.bat
+
     --old-console
-        Changes the way information is output to the console
+        Changes the way text is output to the console
     --no-colors
         Removes colors from the console
+    --no-cr
+        Replaces the carriage return (\r) with a new line (\n) in the console
 
     --debug-shares
-        Shows found shares (the JSON message and the hash)
+        Shows info about found shares (the JSON message and the hash)
     --debug-getwork
-        Shows getwork (the JSON message)
+        Shows info about getwork (the JSON message)
 
-    --algo1 0
-        Disables optimisations from Beta 1.11.1
     --algo2 0
         Disables optimisations from Beta 1.11.2a
 ```
@@ -78,72 +86,93 @@ tar -xf deroluna-miner-linux-amd64.tar.gz
   <summary>AMD</summary>
 
 ```
-AMD Ryzen 3 1200       5.5 kh/s
-AMD Ryzen 3 2200G      5.6 kh/s
-AMD Ryzen 3 3200G      6.1 kh/s
-AMD Ryzen 3 4100       7.9 kh/s
-AMD Ryzen 3 5300U      7.7 kh/s
+AMD Athlon 3000G        4.3 kh/s
 
-AMD Ryzen 5 1400       7.6 kh/s
-AMD Ryzen 5 1500X      8.2 kh/s
-AMD Ryzen 5 1600      12.7 kh/s
-AMD Ryzen 5 2400G      7.4 kh/s
-AMD Ryzen 5 2600      13.4 kh/s
-AMD Ryzen 5 2600X     14.2 kh/s
-AMD Ryzen 5 3400G      8.2 kh/s
-AMD Ryzen 5 3500X     10.5 kh/s
-AMD Ryzen 5 3600      16.1 kh/s
-AMD Ryzen 5 3600X     15.7 kh/s
-AMD Ryzen 5 3600XT    15.1 kh/s
-AMD Ryzen 5 4500      14.5 kh/s
-AMD Ryzen 5 4600G     15.6 kh/s
-AMD Ryzen 5 5500      18.0 kh/s
-AMD Ryzen 5 5500U      8.6 kh/s
-AMD Ryzen 5 5600      17.7 kh/s
-AMD Ryzen 5 5600G     17.7 kh/s
-AMD Ryzen 5 5600H     13.2 kh/s
-AMD Ryzen 5 5600U      9.9 kh/s
-AMD Ryzen 5 5600X     18.7 kh/s
-AMD Ryzen 5 7600      20.6 kh/s
+AMD Ryzen 3 1200        5.5 kh/s
+AMD Ryzen 3 2200G       5.6 kh/s
+AMD Ryzen 3 3200G       6.1 kh/s
+AMD Ryzen 3 4100        8.7 kh/s
+AMD Ryzen 3 4300GE      7.8 kh/s
+AMD Ryzen 3 5300U       7.7 kh/s
 
-AMD Ryzen 7 1700      15.3 kh/s
-AMD Ryzen 7 1700X     16.1 kh/s
-AMD Ryzen 7 1800X     16.0 kh/s
-AMD Ryzen 7 2700      16.8 kh/s
-AMD Ryzen 7 2700X     18.9 kh/s
-AMD Ryzen 7 3700X     21.4 kh/s
-AMD Ryzen 7 3800X     21.2 kh/s
-AMD Ryzen 7 3800XT    17.7 kh/s
-AMD Ryzen 7 4700U      8.0 kh/s
-AMD Ryzen 7 PRO 4750U 10.6 kh/s
-AMD Ryzen 7 4800U     11.2 kh/s
-AMD Ryzen 7 5700G     22.1 kh/s
-AMD Ryzen 7 5700U     11.9 kh/s
-AMD Ryzen 7 5700X     25.1 kh/s
-AMD Ryzen 7 5800H     16.6 kh/s
-AMD Ryzen 7 5800X     25.3 kh/s
-AMD Ryzen 7 5800X3D   22.0 kh/s
-AMD Ryzen 7 6800H     18.4 kh/s
-AMD Ryzen 7 7730U     10.7 kh/s
-AMD Ryzen 7 7735HS    18.8 kh/s
-AMD Ryzen 7 7800X3D   23.8 kh/s
+AMD Ryzen 5 1400        7.6 kh/s
+AMD Ryzen 5 1500X       8.2 kh/s
+AMD Ryzen 5 1600       13.1 kh/s
+AMD Ryzen 5 2400G       7.7 kh/s
+AMD Ryzen 5 2500U       6.3 kh/s
+AMD Ryzen 5 2600       13.6 kh/s
+AMD Ryzen 5 2600X      14.4 kh/s
+AMD Ryzen 5 PRO 3400GE  7.2 kh/s
+AMD Ryzen 5 3400G       8.6 kh/s
+AMD Ryzen 5 3500U       6.0 kh/s
+AMD Ryzen 5 3500X      10.5 kh/s
+AMD Ryzen 5 3550H       5.5 kh/s
+AMD Ryzen 5 3600       16.3 kh/s
+AMD Ryzen 5 3600X      16.3 kh/s
+AMD Ryzen 5 3600XT     15.4 kh/s
+AMD Ryzen 5 4500       15.0 kh/s
+AMD Ryzen 5 4600G      15.8 kh/s
+AMD Ryzen 5 4600H      11.3 kh/s
+AMD Ryzen 5 PRO 4650G  14.6 kh/s
+AMD Ryzen 5 5500       18.0 kh/s
+AMD Ryzen 5 5500U      12.2 kh/s
+AMD Ryzen 5 5600       18.5 kh/s
+AMD Ryzen 5 5600G      17.9 kh/s
+AMD Ryzen 5 5600H      13.2 kh/s
+AMD Ryzen 5 5600X      18.7 kh/s
+AMD Ryzen 5 7500F      22.7 kh/s
+AMD Ryzen 5 7600       20.6 kh/s
+AMD Ryzen 5 7600X      19.7 kh/s
 
-AMD Ryzen 9 3900      31.9 kh/s
-AMD Ryzen 9 3900X     32.6 kh/s
-AMD Ryzen 9 3900XT    31.1 kh/s
-AMD Ryzen 9 3950X     40.4 kh/s
-AMD Ryzen 9 5900HX    17.5 kh/s
-AMD Ryzen 9 5900X     37.5 kh/s
-AMD Ryzen 9 5950X     47.6 kh/s
-AMD Ryzen 9 6900HX    19.7 kh/s
-AMD Ryzen 9 7900      38.8 kh/s
-AMD Ryzen 9 7900X     42.6 kh/s
-AMD Ryzen 9 7900X3D   38.9 kh/s
-AMD Ryzen 9 7950X     56.4 kh/s
-AMD Ryzen 9 7950X3D   52.7 kh/s
+AMD Ryzen 7 1700       17.1 kh/s
+AMD Ryzen 7 1700X      16.3 kh/s
+AMD Ryzen 7 1800X      17.0 kh/s
+AMD Ryzen 7 2700       16.8 kh/s
+AMD Ryzen 7 2700X      19.1 kh/s
+AMD Ryzen 7 3700X      21.4 kh/s
+AMD Ryzen 7 3800X      21.7 kh/s
+AMD Ryzen 7 3800XT     17.7 kh/s
+AMD Ryzen 7 4700U       8.0 kh/s
+AMD Ryzen 7 PRO 4750U  10.6 kh/s
+AMD Ryzen 7 4800H      15.9 kh/s
+AMD Ryzen 7 4800U      11.3 kh/s
+AMD Ryzen 7 5700G      25.4 kh/s
+AMD Ryzen 7 5700U      13.1 kh/s
+AMD Ryzen 7 5700X      25.5 kh/s
+AMD Ryzen 7 5800H      17.0 kh/s
+AMD Ryzen 7 5800X      25.3 kh/s
+AMD Ryzen 7 5800X3D    23.0 kh/s
+AMD Ryzen 7 6800H      18.4 kh/s
+AMD Ryzen 7 7700       28.4 kh/s
+AMD Ryzen 7 7700X      29.2 kh/s
+AMD Ryzen 7 7730U      11.9 kh/s
+AMD Ryzen 7 7735HS     19.5 kh/s
+AMD Ryzen 7 7800X3D    23.8 kh/s
 
-AMD Ryzen Threadripper 3970X    73.4 kh/s
-AMD Ryzen Threadripper 3990X   145.2 kh/s
+AMD Ryzen 9 3900       32.2 kh/s
+AMD Ryzen 9 3900X      33.1 kh/s
+AMD Ryzen 9 3900XT     31.1 kh/s
+AMD Ryzen 9 3950X      41.6 kh/s
+AMD Ryzen 9 5900HX     17.5 kh/s
+AMD Ryzen 9 5900X      37.5 kh/s
+AMD Ryzen 9 5950X      47.9 kh/s
+AMD Ryzen 9 6900HX     19.7 kh/s
+AMD Ryzen 9 7900       43.4 kh/s
+AMD Ryzen 9 7900X      43.0 kh/s
+AMD Ryzen 9 7900X3D    38.9 kh/s
+AMD Ryzen 9 7940HS     20.9 kh/s
+AMD Ryzen 9 PRO 7945   35.7 kh/s
+AMD Ryzen 9 7950X      57.1 kh/s
+AMD Ryzen 9 7950X3D    53.6 kh/s
+
+AMD Ryzen Threadripper 1920X     26.0 kh/s
+AMD Ryzen Threadripper 1950X     31.8 kh/s
+AMD Ryzen Threadripper 2950X     32.0 kh/s
+AMD Ryzen Threadripper 2970WX    39.9 kh/s
+AMD Ryzen Threadripper 2990WX    28.6 kh/s
+AMD Ryzen Threadripper 3970X     73.4 kh/s
+AMD Ryzen Threadripper 3990X    145.2 kh/s
+AMD Ryzen Threadripper 7970X     89.8 kh/s
 ```
 </details>
 
