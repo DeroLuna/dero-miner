@@ -169,7 +169,6 @@ AMD Ryzen Threadripper 1920X     26.0 kh/s
 AMD Ryzen Threadripper 1950X     31.8 kh/s
 AMD Ryzen Threadripper 2950X     32.0 kh/s
 AMD Ryzen Threadripper 2970WX    39.9 kh/s
-AMD Ryzen Threadripper 2990WX    28.6 kh/s
 AMD Ryzen Threadripper 3970X     73.4 kh/s
 AMD Ryzen Threadripper 3990X    145.2 kh/s
 AMD Ryzen Threadripper 7970X     89.8 kh/s
