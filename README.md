@@ -175,7 +175,6 @@ AMD EPYC 7H12     104.7 kh/s
 AMD EPYC 7J13     115.8 kh/s
 AMD EPYC 7V12     111.9 kh/s
 AMD EPYC 9254      56.5 kh/s
-AMD EPYC 9R14     130.3 kh/s
 ```
 </details>
 
