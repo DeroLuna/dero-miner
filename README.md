@@ -8,7 +8,7 @@ Available for Linux, Windows and HiveOS.
 If you have problems with the miner, message me in Discord.\
 Discord server: https://discord.gg/vuJW8UahRV
 
-Developer fee: 10%
+Developer fee: 5%
 
 ## Usage ##
 
