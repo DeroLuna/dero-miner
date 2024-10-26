@@ -258,45 +258,6 @@ Intel Core i9-14900KF   45.3 kh/s
 ```
 </details>
 
-## Algo switching ##
-With the algo switching the miner will switch between Dero and any coin you can mine with xmrig.\
-The miner switches to xmrig when the Dero difficulty is high and switches back when it's low.\
-This should be about 30% more profitable in case you mine something as profitable as Dero.
-
-### Linux & Windows
-
-If you use `config.json` for xmrig then find the `"http"` block and change it to this:
-```
-    "http": {
-        "enabled": true,
-        "host": "127.0.0.1",
-        "port": 37329,
-        "access-token": "auth",
-        "restricted": false
-    },
-```
-
-Otherwise, if you use command line options for xmrig then add this to xmrig options:
-`--http-port 37329 --http-no-restricted --http-access-token auth`
-
-Run xmrig\
-Run deroluna-miner with the additional option `--xmrig`
-
-### HiveOS
-
-Create a Flight Sheet with xmrig and deroluna-miner in it.
-
-Add this line in the `Extra config arguments` for xmrig:
-`"http": { "enabled": true, "host": "127.0.0.1", "port": 37329, "access-token": "auth", "restricted": false }`
-
-Add `--xmrig` in the `Extra config arguments` for deroluna-miner
-
-### Notes
-**You should mine Dero in solo** (use port 10100) otherwise you will get much less Dero.\
-This also means you will need to register your own Dero wallet.
-
-The algorithms are switching about 6 times per minute.
-
 ## Known issues
 * May crash on Linux when resolving the daemon address with the "Assertion failed" exception. In this case, just run the program again.
 * If you have a dual CPU and you are using Windows, then most likely only one of the CPUs will be used. To use the second CPU, run another instance of the miner.
