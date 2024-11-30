@@ -1,14 +1,14 @@
 # AstroBWTv3 Dero Miner by DeroLuna
 
-A new optimized AstroBWTv3 Dero CPU Miner.\
+A highly optimized AstroBWTv3 Dero CPU Miner.\
 As testing shows, it works 4-5 times faster for AMD Ryzen and 2-4 times faster for Intel Core than the official miner.
 
-Available for Linux, Windows and HiveOS.
+Available for Linux, Windows, Android, HiveOS and MMPOS.
 
 If you have problems with the miner, message me in Discord.\
 Discord server: https://discord.gg/vuJW8UahRV
 
-Developer fee: 10%
+Miner fee: 10% (or 5% if you mine on a dev node)
 
 ## Usage ##
 
@@ -30,26 +30,23 @@ deroluna-miner -d minernode1.dero.io:10100 -w dero1qykyta6ntpd27nl0yq4xtzaf4ls6p
 
     --daemon-address -d
         The daemon address
+          Specify "dev_node:443" if you want to mine on a dev node in solo with 5% fee for the miner
     --wallet -w
         Your wallet address
     --threads -t
         Number of threads
-    --no-lock
-        Disables CPU core binding
+    --lock-threads
+        Enables CPU core binding
     --period <time in seconds>
-        The period for which the average hashrate is calculated (10 by default)
+        The period for which the average hashrate is calculated (default: 10)
         Must be between 1 and 64
     --log-console-line <time in seconds>
         Enables logging of the console line with the specified period
-    --show-pool-shares
-        Shows the total count of shares sent to the pool
     --never-stop
         Simulate mining when connection is lost
 
-    --exit-on-zero-hashrate
-        Stops the miner if the hashrate has been zero for 15 seconds
-        You should run the command in a loop for the miner to restart (except for HiveOS)
-          See the examples in start.sh and start.bat
+    --restart-on-zero-hashrate
+        Restarts the miner if the hashrate has been zero for 15 seconds
 
     --old-console
         Changes the way text is output to the console
@@ -58,13 +55,8 @@ deroluna-miner -d minernode1.dero.io:10100 -w dero1qykyta6ntpd27nl0yq4xtzaf4ls6p
     --no-cr
         Replaces the carriage return (\r) with a new line (\n) in the console
 
-    --debug-shares
-        Shows info about found shares (the JSON message and the hash)
-    --debug-getwork
-        Shows info about getwork (the JSON message)
-
-    --algo2 0
-        Disables optimisations from Beta 1.11.2a
+    --config-file <path>
+        The path to the config file (default: config.json)
 ```
 
 ## Hashrate stats ##
